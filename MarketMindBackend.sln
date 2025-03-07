@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketMind.Data", "MarketMind.Data\MarketMind.Data.csproj", "{1CA648CD-F051-4FBB-BA59-847C364BF985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketMind.Application", "MarketMind.Application\MarketMind.Application.csproj", "{FBD3570B-950B-44C9-9875-B82AC48771AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketMind.WebApi", "MarketMind.WebApi\MarketMind.WebApi.csproj", "{A7FE82DA-1160-486E-89CE-B1EF96573E99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CA648CD-F051-4FBB-BA59-847C364BF985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA648CD-F051-4FBB-BA59-847C364BF985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA648CD-F051-4FBB-BA59-847C364BF985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA648CD-F051-4FBB-BA59-847C364BF985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD3570B-950B-44C9-9875-B82AC48771AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD3570B-950B-44C9-9875-B82AC48771AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD3570B-950B-44C9-9875-B82AC48771AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD3570B-950B-44C9-9875-B82AC48771AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FE82DA-1160-486E-89CE-B1EF96573E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FE82DA-1160-486E-89CE-B1EF96573E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FE82DA-1160-486E-89CE-B1EF96573E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FE82DA-1160-486E-89CE-B1EF96573E99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

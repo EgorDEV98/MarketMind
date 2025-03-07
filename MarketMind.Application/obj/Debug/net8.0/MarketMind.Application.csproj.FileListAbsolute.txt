@@ -1,0 +1,15 @@
+D:\TradeSoft\MarketMind\MarketMind.Application\bin\Debug\net8.0\MarketMind.Application.deps.json
+D:\TradeSoft\MarketMind\MarketMind.Application\bin\Debug\net8.0\MarketMind.Application.dll
+D:\TradeSoft\MarketMind\MarketMind.Application\bin\Debug\net8.0\MarketMind.Application.pdb
+D:\TradeSoft\MarketMind\MarketMind.Application\bin\Debug\net8.0\MarketMind.Data.dll
+D:\TradeSoft\MarketMind\MarketMind.Application\bin\Debug\net8.0\MarketMind.Data.pdb
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\MarketMind.Application.csproj.AssemblyReference.cache
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\MarketMind.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\MarketMind.Application.AssemblyInfoInputs.cache
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\MarketMind.Application.AssemblyInfo.cs
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\MarketMind.Application.csproj.CoreCompileInputs.cache
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\MarketMi.BD6DB726.Up2Date
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\MarketMind.Application.dll
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\refint\MarketMind.Application.dll
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\MarketMind.Application.pdb
+D:\TradeSoft\MarketMind\MarketMind.Application\obj\Debug\net8.0\ref\MarketMind.Application.dll

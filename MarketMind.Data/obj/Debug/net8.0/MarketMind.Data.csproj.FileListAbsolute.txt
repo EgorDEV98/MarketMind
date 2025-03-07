@@ -1,0 +1,12 @@
+D:\TradeSoft\MarketMind\MarketMind.Data\bin\Debug\net8.0\MarketMind.Data.deps.json
+D:\TradeSoft\MarketMind\MarketMind.Data\bin\Debug\net8.0\MarketMind.Data.dll
+D:\TradeSoft\MarketMind\MarketMind.Data\bin\Debug\net8.0\MarketMind.Data.pdb
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.csproj.AssemblyReference.cache
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.AssemblyInfoInputs.cache
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.AssemblyInfo.cs
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.csproj.CoreCompileInputs.cache
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.dll
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\refint\MarketMind.Data.dll
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.pdb
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\ref\MarketMind.Data.dll
