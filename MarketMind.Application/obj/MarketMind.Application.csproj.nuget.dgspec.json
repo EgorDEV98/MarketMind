@@ -49,6 +49,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AppResponseExtension": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Riok.Mapperly": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Tinkoff.InvestApi": {
+              "target": "Package",
+              "version": "[0.6.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

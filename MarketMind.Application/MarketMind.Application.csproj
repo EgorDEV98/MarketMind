@@ -10,4 +10,10 @@
       <ProjectReference Include="..\MarketMind.Data\MarketMind.Data.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="AppResponseExtension" Version="1.0.2" />
+      <PackageReference Include="Riok.Mapperly" Version="4.1.1" />
+      <PackageReference Include="Tinkoff.InvestApi" Version="0.6.14" />
+    </ItemGroup>
+
 </Project>

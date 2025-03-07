@@ -134,3 +134,13 @@ D:\TradeSoft\MarketMind\MarketMind.WebApi\obj\Debug\net8.0\refint\MarketMind.Web
 D:\TradeSoft\MarketMind\MarketMind.WebApi\obj\Debug\net8.0\MarketMind.WebApi.pdb
 D:\TradeSoft\MarketMind\MarketMind.WebApi\obj\Debug\net8.0\MarketMind.WebApi.genruntimeconfig.cache
 D:\TradeSoft\MarketMind\MarketMind.WebApi\obj\Debug\net8.0\ref\MarketMind.WebApi.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\bin\Debug\net8.0\AppResponseExtension.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\bin\Debug\net8.0\Google.Api.CommonProtos.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\bin\Debug\net8.0\Google.Protobuf.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\bin\Debug\net8.0\Grpc.Core.Api.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\bin\Debug\net8.0\Grpc.Net.Client.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\bin\Debug\net8.0\Grpc.Net.Common.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\bin\Debug\net8.0\Riok.Mapperly.Abstractions.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\bin\Debug\net8.0\Tinkoff.InvestApi.dll
+D:\TradeSoft\MarketMind\MarketMind.WebApi\obj\Debug\net8.0\MarketMind.WebApi.sourcelink.json

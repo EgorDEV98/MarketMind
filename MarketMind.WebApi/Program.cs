@@ -10,6 +10,9 @@ builder.Services.AddSwaggerGen();
 // Кастомные сервисы
 builder.Services.AddPostgresDbContext(builder.Configuration);
 builder.Services.AddServiceOptions(builder.Configuration);
+builder.Services.AddTinkoff(builder.Configuration);
+builder.Services.AddServices();
+builder.Services.AddMappers();
 
 var app = builder.Build();
 await app.Services.ApplyMigrationAsync();

@@ -18,6 +18,77 @@
           "MarketMind.WebApi.dll": {}
         }
       },
+      "AppResponseExtension/1.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/AppResponseExtension.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Google.Api.CommonProtos/2.13.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.25.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Api.CommonProtos.dll": {
+            "assemblyVersion": "2.13.0.0",
+            "fileVersion": "2.13.0.0"
+          }
+        }
+      },
+      "Google.Protobuf/3.25.1": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.25.1.0",
+            "fileVersion": "3.25.1.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.59.0": {
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.59.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Client/2.59.0": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.59.0"
+        },
+        "runtime": {
+          "lib/net8.0/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.59.0.0"
+          }
+        }
+      },
+      "Grpc.Net.ClientFactory/2.59.0": {
+        "dependencies": {
+          "Grpc.Net.Client": "2.59.0"
+        },
+        "runtime": {
+          "lib/net8.0/Grpc.Net.ClientFactory.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.59.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.59.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.59.0"
+        },
+        "runtime": {
+          "lib/net8.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.59.0.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -538,6 +609,14 @@
           }
         }
       },
+      "Riok.Mapperly/4.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Riok.Mapperly.Abstractions.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.1.1.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -688,9 +767,26 @@
           }
         }
       },
+      "Tinkoff.InvestApi/0.6.14": {
+        "dependencies": {
+          "Google.Api.CommonProtos": "2.13.0",
+          "Google.Protobuf": "3.25.1",
+          "Grpc.Net.Client": "2.59.0",
+          "Grpc.Net.ClientFactory": "2.59.0"
+        },
+        "runtime": {
+          "lib/net6.0/Tinkoff.InvestApi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MarketMind.Application/1.0.0": {
         "dependencies": {
-          "MarketMind.Data": "1.0.0"
+          "AppResponseExtension": "1.0.2",
+          "MarketMind.Data": "1.0.0",
+          "Riok.Mapperly": "4.1.1",
+          "Tinkoff.InvestApi": "0.6.14"
         },
         "runtime": {
           "MarketMind.Application.dll": {
@@ -718,6 +814,55 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AppResponseExtension/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tPdwSvbFuIOhXl2YE0OJ3hzlU2TrVLUZbAN4MP3xuXCKeiRKzUePGpm9tIr7TjKz6wRER/VMxZn2WAK3thvaVw==",
+      "path": "appresponseextension/1.0.2",
+      "hashPath": "appresponseextension.1.0.2.nupkg.sha512"
+    },
+    "Google.Api.CommonProtos/2.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4QG32em/rqXKSUd2OmBTad38ps7Yt3tiN3M5qHmfbOgpL3rYnG86WxXaAy+bCn73ZyYPEjnO2uHJ9yYWWkPAcw==",
+      "path": "google.api.commonprotos/2.13.0",
+      "hashPath": "google.api.commonprotos.2.13.0.nupkg.sha512"
+    },
+    "Google.Protobuf/3.25.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sw9bq4hOD+AaS3RrnmP5IT25cyZ/T1qpM0e8+G+23Nojhv7+ScJFPEAQo1m4EFQWhXoI4FRZDrK+wjHCPw9yxg==",
+      "path": "google.protobuf/3.25.1",
+      "hashPath": "google.protobuf.3.25.1.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.59.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n0QpwXqri/Uu7pXWbE6PWVANEhKggC6QRX7qsSR4vyzZRDN2jBPoUNvrJP7RBw7g8Dgg8e2bWYuGKq4ph6VXeA==",
+      "path": "grpc.core.api/2.59.0",
+      "hashPath": "grpc.core.api.2.59.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.59.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I2CP5aLTek9mz7OwmM8T94pzvuV2Jib91KqzHh+vohazx/rL0ks1GCsUrwf+7866UsSsOznaWRKqFxWPEYstpg==",
+      "path": "grpc.net.client/2.59.0",
+      "hashPath": "grpc.net.client.2.59.0.nupkg.sha512"
+    },
+    "Grpc.Net.ClientFactory/2.59.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6vGLuKWpDzHbjjXgLV7cWRw+GorjUxnizzOWqiHvyz0U9lV/kzStrUE3sBqYoGv0B1Z3Yq5WfaAy2mt9o5pAlA==",
+      "path": "grpc.net.clientfactory/2.59.0",
+      "hashPath": "grpc.net.clientfactory.2.59.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.59.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9j1wKAeCzjnx/j8CC8chXRoLCuzJ9VhhlhwMkbW37mS1Ox4vv0i2pcefpDY5INIeE1BmPNIuPtqFLOUktkiKrQ==",
+      "path": "grpc.net.common/2.59.0",
+      "hashPath": "grpc.net.common.2.59.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -936,6 +1081,13 @@
       "path": "npgsql.entityframeworkcore.postgresql/9.0.4",
       "hashPath": "npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512"
     },
+    "Riok.Mapperly/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SnLiZuBw4d/yMoyM//Qdz9N5pPNx+LZxOMSb9rk3Xdd3CZ9WTlw6vVF1mwD1Y/g+sMgB96j8V58go7lJOFNTng==",
+      "path": "riok.mapperly/4.1.1",
+      "hashPath": "riok.mapperly.4.1.1.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",
       "serviceable": true,
@@ -1040,6 +1192,13 @@
       "sha512": "sha512-4TY2Yokh5Xp8XHFhsY9y84yokS7B0rhkaZCXuRiKppIiKwPVH4lVSFD9EEFzRpXdBM5ZeZXD43tc2vB6njEwwQ==",
       "path": "system.text.json/9.0.2",
       "hashPath": "system.text.json.9.0.2.nupkg.sha512"
+    },
+    "Tinkoff.InvestApi/0.6.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qQ0In2faSV8rnyEgbk50QOqUi9KtSGW5MYX/4Z4NlcJCir2ghc3EhNyrckZUN2Gpb2IJnDw2G+QwmkzNiGBfYQ==",
+      "path": "tinkoff.investapi/0.6.14",
+      "hashPath": "tinkoff.investapi.0.6.14.nupkg.sha512"
     },
     "MarketMind.Application/1.0.0": {
       "type": "project",

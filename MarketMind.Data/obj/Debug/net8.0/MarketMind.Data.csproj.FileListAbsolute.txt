@@ -10,3 +10,4 @@ D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.dll
 D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\refint\MarketMind.Data.dll
 D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.pdb
 D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\ref\MarketMind.Data.dll
+D:\TradeSoft\MarketMind\MarketMind.Data\obj\Debug\net8.0\MarketMind.Data.sourcelink.json

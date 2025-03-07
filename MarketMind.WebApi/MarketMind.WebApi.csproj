@@ -26,10 +26,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\MarketMind.Application\MarketMind.Application.csproj" />
       <ProjectReference Include="..\MarketMind.Data\MarketMind.Data.csproj" />
     </ItemGroup>
