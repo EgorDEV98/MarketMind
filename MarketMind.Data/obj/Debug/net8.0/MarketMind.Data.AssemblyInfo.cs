@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarketMind.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c50e4d9c81b842411dd6072da08da1e26f636ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b23f8ba472f1f714dd70281c6c46d19a1ceda02c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarketMind.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarketMind.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -21,7 +21,7 @@ builder.Services.AddMappers();
 
 var app = builder.Build();
 await app.Services.ApplyMigrationAsync();
-
+app.UseCors(corsPolicyBuilder => corsPolicyBuilder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 app.UseSwagger();
 app.UseSwaggerUI(x => x.EnableTryItOutByDefault());
 app.UseHttpsRedirection();
