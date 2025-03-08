@@ -13,6 +13,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Кастомные сервисы
+builder.Services.AddCommon();
+builder.Services.AddRateLimiters();
 builder.Services.AddPostgresDbContext(builder.Configuration);
 builder.Services.AddServiceOptions(builder.Configuration);
 builder.Services.AddTinkoff(builder.Configuration);

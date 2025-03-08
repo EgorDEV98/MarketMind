@@ -10,15 +10,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a47ff58-6b2d-4752-8848-08c1a7d0b3c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MarketMind.WebApi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Decorators/MarketDataServiceRateLimiterDecorator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/ExternalServices/MarketDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Interfaces/ICandlesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Interfaces/ICandlesService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Interfaces/IMarketDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Mappers/CandleMappers/CandleRequestMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Mappers/CandleMappers/CandleServiceMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Models/ExternalModels/GetHistoricCandleModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Models/Params/GetCandleParams.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Models/Params/GetCandlesParams.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Models/Params/LoadCandleParams.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Models/Requests/GetCandlesRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Models/Requests/LoadCandleRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Models/Responces/GetCandleResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.Application/Services/CandlesService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MarketMind.WebApi/Controllers/CandlesController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MarketMindBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MarketMindBackend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.Application/MarketMind.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/MarketMind.Application.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarketMind.Application/obj/Debug/net8.0/MarketMind.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/obj/Debug/net8.0/MarketMind.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarketMind.Application/obj/Debug/net8.0/MarketMind.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/obj/Debug/net8.0/MarketMind.Application.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.Application/obj/MarketMind.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/obj/MarketMind.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.Application/obj/MarketMind.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/obj/MarketMind.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.Application/obj/MarketMind.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/obj/MarketMind.Application.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarketMind.Data/obj/Debug/net8.0/MarketMind.Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Data/obj/Debug/net8.0/MarketMind.Data.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarketMind.Data/obj/Debug/net8.0/MarketMind.Data.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.Data/obj/Debug/net8.0/MarketMind.Data.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.WebApi/Extensions/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.WebApi/Extensions/ServiceCollectionExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarketMind.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.WebApi/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MarketMind.WebApi/obj/Debug/net8.0/MarketMind.WebApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.WebApi/obj/Debug/net8.0/MarketMind.WebApi.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MarketMind.WebApi/obj/Debug/net8.0/MarketMind.WebApi.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.WebApi/obj/Debug/net8.0/MarketMind.WebApi.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.WebApi/obj/MarketMind.WebApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.WebApi/obj/MarketMind.WebApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.WebApi/obj/MarketMind.WebApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.WebApi/obj/MarketMind.WebApi.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.WebApi/obj/MarketMind.WebApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.WebApi/obj/MarketMind.WebApi.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.WebApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.WebApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketMind.WebApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MarketMind.WebApi/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +67,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/SourceGeneratedDocuments/C1AE81740A9C3A1A5C10224B/Riok.Mapperly/Riok.Mapperly.MapperGenerator/ShareServiceMapper.g.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0f4577e09aab4e869da3df3322b9f069142400/9d/f3e1c312/Share.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ca6bf72c27214e9bbbce02bd09f96e2e848a0/de/a65d29e2/Enumerable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6c4e2d8e614be2709cfdf74ff6670b93166c1a/ShareServiceMapper.g.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f754ca49f5a1105716bc5612a5ec894fb3ad7df42b592209240464b57fb1fc2/MapperAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MarketMind.Application/Models/Responces/GetShareResponse.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -56,21 +84,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Local.executor": "Debug",
-    ".NET Launch Settings Profile.MarketMind.WebApi: IIS Express.executor": "Debug",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Local.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.MarketMind.WebApi: IIS Express.executor&quot;: &quot;Debug&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Local">
     <configuration name="Local" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MarketMind.WebApi/MarketMind.WebApi.csproj" />
@@ -134,7 +162,8 @@
       <workItem from="1741371192797" duration="4111000" />
       <workItem from="1741379655384" duration="63000" />
       <workItem from="1741416370350" duration="1433000" />
-      <workItem from="1741418981892" duration="847000" />
+      <workItem from="1741418981892" duration="1151000" />
+      <workItem from="1741449700743" duration="4195000" />
     </task>
     <servers />
   </component>

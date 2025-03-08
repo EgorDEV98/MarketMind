@@ -54,6 +54,14 @@
               "target": "Package",
               "version": "[1.0.2, )"
             },
+            "Microsoft.Extensions.Resilience": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "Polly.RateLimiting": {
+              "target": "Package",
+              "version": "[8.5.2, )"
+            },
             "Riok.Mapperly": {
               "target": "Package",
               "version": "[4.1.1, )"
