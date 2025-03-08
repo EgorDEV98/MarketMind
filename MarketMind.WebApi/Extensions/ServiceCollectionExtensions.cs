@@ -1,5 +1,6 @@
 ﻿using MarketMind.Application.Interfaces;
 using MarketMind.Application.Mappers;
+using MarketMind.Application.Mappers.ShareMappers;
 using MarketMind.Application.Services;
 using MarketMind.Data.Settings;
 using MarketMind.WebApi.Settings;
@@ -24,7 +25,8 @@ public static class ServiceCollectionExtensions
     
     public static IServiceCollection AddMappers(this IServiceCollection serviceCollection)
     {
-        serviceCollection.AddSingleton<ShareMapper>();
+        serviceCollection.AddSingleton<ShareServiceMapper>();
+        serviceCollection.AddSingleton<ShareRequestMapper>();
         
         return serviceCollection;
     }

@@ -1,26 +1,26 @@
 ﻿using AppResponseExtension.Exceptions;
 using MarketMind.Application.Interfaces;
 using MarketMind.Application.Mappers;
+using MarketMind.Application.Mappers.ShareMappers;
 using MarketMind.Application.Models.Params;
 using MarketMind.Application.Models.Responces;
 using MarketMind.Data;
 using MarketMind.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Tinkoff.InvestApi;
-using NotImplementedException = System.NotImplementedException;
 
 namespace MarketMind.Application.Services;
 
 public class SharesService : IShareService
 {
     private readonly PostgresDbContext _context;
-    private readonly ShareMapper _mapper;
+    private readonly ShareServiceMapper _serviceMapper;
     private readonly InvestApiClient _apiClient;
 
-    public SharesService(PostgresDbContext context, ShareMapper mapper, InvestApiClient apiClient)
+    public SharesService(PostgresDbContext context, ShareServiceMapper serviceMapper, InvestApiClient apiClient)
     {
         _context = context;
-        _mapper = mapper;
+        _serviceMapper = serviceMapper;
         _apiClient = apiClient;
     }
     
@@ -34,13 +34,14 @@ public class SharesService : IShareService
     {
         var share = await _context.Shares
             .AsNoTracking()
+            .Include(x => x.Brand)
             .FirstOrDefaultAsync(x => x.Id == parameters.Id, cancellationToken);
         if (share is null)
         {
             NotFoundException.Throw($"Share with id: {parameters.Id} not found");
         }
         
-        return _mapper.Map(share!);
+        return _serviceMapper.Map(share!);
     }
 
     /// <summary>
@@ -53,6 +54,7 @@ public class SharesService : IShareService
     {
         var entities = await _context.Shares
             .AsNoTracking()
+            .Include(x => x.Brand)
             .WhereIf(!string.IsNullOrWhiteSpace(parameters.Figi), x => x.Figi.ToLower().Contains(parameters.Figi!.ToLower()))
             .WhereIf(!string.IsNullOrWhiteSpace(parameters.Ticker), x => x.Ticker.ToLower().Contains(parameters.Ticker!.ToLower()))
             .WhereIf(!string.IsNullOrWhiteSpace(parameters.CountryOfRisk), x => x.CountryOfRisk.ToLower().Contains(parameters.CountryOfRisk!.ToLower()))
@@ -65,7 +67,7 @@ public class SharesService : IShareService
             .Take(parameters.Limit ?? 100)
             .ToArrayAsync(cancellationToken);
         
-        return _mapper.Map(entities);
+        return _serviceMapper.Map(entities);
     }
 
     /// <summary>
@@ -92,7 +94,6 @@ public class SharesService : IShareService
     /// </summary>
     /// <param name="cancellationToken"></param>
     /// <returns></returns>
-    /// <exception cref="NotImplementedException"></exception>
     public async Task<bool> ResyncAsync(CancellationToken cancellationToken)
     {
         var shares = await _context.Shares
@@ -128,7 +129,7 @@ public class SharesService : IShareService
                 currentShare.Brand.TextColor = tfShare.Brand.TextColor;
                 continue;
             }
-            await _context.Shares.AddAsync(_mapper.Map(tfShare), cancellationToken);
+            await _context.Shares.AddAsync(_serviceMapper.Map(tfShare), cancellationToken);
 
         }
         await _context.SaveChangesAsync(cancellationToken);
